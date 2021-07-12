@@ -1,0 +1,23 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "Portal para programadores encontrarem vagas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "jobs"
+  ],
+  "author": "Reinaldo Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemon": "^2.0.10",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
